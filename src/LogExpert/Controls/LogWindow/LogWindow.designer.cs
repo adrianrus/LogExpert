@@ -239,8 +239,8 @@ namespace LogExpert
       dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
       dataGridViewCellStyle1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-      dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-      dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+      dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Cornsilk;
+      dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
       dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
       this.dataGridView.DefaultCellStyle = dataGridViewCellStyle1;
       this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -711,6 +711,8 @@ namespace LogExpert
       dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
       dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
       dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+      dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Cornsilk;
+      dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
       this.filterGridView.DefaultCellStyle = dataGridViewCellStyle2;
       this.filterGridView.Dock = System.Windows.Forms.DockStyle.Fill;
       this.filterGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
@@ -1258,8 +1260,8 @@ namespace LogExpert
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
 		private System.Windows.Forms.ToolStripMenuItem moveLeftToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem moveRightToolStripMenuItem;
-		private TimeSpreadingControl timeSpreadingControl1;
-    private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+		private Dialogs.TimeSpreadingControl timeSpreadingControl1;
+		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 		private System.Windows.Forms.ToolStripSeparator pluginSeparator;
 		private System.Windows.Forms.ToolStripMenuItem bookmarkCommentToolStripMenuItem;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;

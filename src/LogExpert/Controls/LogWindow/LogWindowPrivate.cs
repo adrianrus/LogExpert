@@ -1168,13 +1168,6 @@ namespace LogExpert
                         e.Graphics.FillRectangle(bgBrush, wordRect);
                     }
                 }
-                else
-                {
-                    if (foreColor.Equals(Color.Black))
-                    {
-                        foreColor = Color.White;
-                    }
-                }
 
                 TextRenderer.DrawText(e.Graphics, matchWord, font, wordRect,
                     foreColor, flags);
